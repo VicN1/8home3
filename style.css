@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.material-symbols-outlined {
+    color: white;
+    transition: all .1s ease;
+    font-weight: 100;
+}
+
+.action a {
+    font-size: 30px;
+}
+
+.material-symbols-outlined:hover {
+    color: #F57520;
+    cursor: pointer;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 75px;
+    height: 45px;
+}
+
+#sec1 {
+    height: 100vh;
+    width: 100%;
+    background: url(./sec1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 35px;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .navbar {
+    display: flex;
+    gap: 30px;
+}
+
+header .action {
+    display: flex;
+    gap: 25px;
+}
+
+header .navbar li a {
+    font-weight: 200;
+    transition: all .1s ease;
+}
+
+header .navbar li a:hover {
+    color: #F57520;
+}
+
+.bike {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.bike .electric {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.bike .info {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.bike .btn {
+    border: none;
+    width: fit-content;
+    background-color: #F57520;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all .1s ease;
+}
+
+.bike .btn:hover {
+    background-color: #f57520ce;
+}
+
+.bike .btn:active {
+    background-color: #f575206b;
+}
+
+#sec2 {
+    background-color: gray;
+}
+
+.trace {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.trace .tit {
+    font-size: 64px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.record {
+    margin: 20px;
+    background-color: black;
+    width: 400px;
+    transition: all .08s ease;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+.record img {
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.record:hover {
+    background-color: #F57520;
+    cursor: pointer;
+}
+
+.record p {
+    margin: 30px;
+    font-size: 20px;
+}
+
+.record:hover p {
+    color: black;
+}
+
+#sec3 {
+    background-color: #F57520;
+    padding: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.input {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input {
+    outline: none;
+    border: none;
+    color: black;
+    padding: 0 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+form .basics {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.basic {
+    width: 250px;
+    height: 50px;
+    margin: 10px 25px 10px 0;
+}
+
+.basic::placeholder {
+    font-size: 20px
+}
+
+.input {
+    padding: 30px 0;
+}
+
+.input .tit {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.chat {
+    width: 525px;
+    height: 100px;
+    display: flex;
+    align-items: start;
+}
+
+.send {
+    width: 525px;
+    background-color: white;
+    padding: 12px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: all .1s ease;
+    border: none;
+    color:#F57520;
+}
+
+.send:hover {
+    background-color: rgb(210, 210, 210);
+}
+
+.send:active {
+    background-color: rgb(145, 145, 145);
+    color: white;
+}
+
+.velo {
+    width: 55%;
+}
+
+.map {
+    width: 100%;
+    height: 500px;
+}
+
+#sec5 {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.about {
+    display: flex;
+    gap: 100px;
+}
+
+.abc {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.t {
+    font-size: 22px;
+}
+
+.in {
+    font-size: 15px;
+    font-weight: 300;
+}
